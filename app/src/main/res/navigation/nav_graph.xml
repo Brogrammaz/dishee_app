@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/createAccount">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.dishee.Login"
+        android:label="Login" >
+        <action
+            android:id="@+id/action_login_to_createAccount"
+            app:destination="@id/createAccount" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.dishee.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/createAccount"
+        android:name="com.example.dishee.CreateAccount"
+        android:label="CreateAccount" >
+        <action
+            android:id="@+id/action_createAccount_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_createAccount_to_uploadPicture"
+            app:destination="@id/uploadPicture" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadPicture"
+        android:name="com.example.dishee.UploadPicture"
+        android:label="UploadPicture" >
+        <action
+            android:id="@+id/action_uploadPicture_to_congrats"
+            app:destination="@id/congrats" />
+    </fragment>
+    <fragment
+        android:id="@+id/congrats"
+        android:name="ke.example.dishee.Congrats"
+        android:label="fragment_congrats"
+        tools:layout="@layout/fragment_congrats" >
+        <action
+            android:id="@+id/action_congrats_to_login"
+            app:destination="@id/login" />
+    </fragment>
+</navigation>
