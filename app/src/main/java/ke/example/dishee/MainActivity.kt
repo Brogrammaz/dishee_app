@@ -2,7 +2,8 @@ package ke.example.dishee
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.dishee.databinding.ActivityMainBinding
+import ke.example.dishee.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding

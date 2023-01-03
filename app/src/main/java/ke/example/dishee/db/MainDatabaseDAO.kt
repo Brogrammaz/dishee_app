@@ -3,7 +3,8 @@ package ke.example.dishee.db
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.dishee.models.Recipe
+import ke.example.dishee.models.Recipe
+
 
 @Dao
 interface MainDatabaseDAO {

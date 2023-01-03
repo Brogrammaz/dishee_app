@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/login"
-        android:name="com.example.dishee.Login"
+        android:name="ke.example.dishee.Login"
         android:label="Login" >
         <action
             android:id="@+id/action_login_to_createAccount"
@@ -15,11 +15,11 @@
     </fragment>
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.dishee.MainActivity"
+        android:name="ke.example.dishee.MainActivity"
         android:label="MainActivity" />
     <fragment
         android:id="@+id/createAccount"
-        android:name="com.example.dishee.CreateAccount"
+        android:name="ke.example.dishee.CreateAccount"
         android:label="CreateAccount" >
         <action
             android:id="@+id/action_createAccount_to_login"
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/uploadPicture"
-        android:name="com.example.dishee.UploadPicture"
+        android:name="ke.example.dishee.UploadPicture"
         android:label="UploadPicture" >
         <action
             android:id="@+id/action_uploadPicture_to_congrats"

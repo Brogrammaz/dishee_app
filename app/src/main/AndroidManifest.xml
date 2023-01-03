@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.dishee">
+    package="ke.example.dishee">
 
     <application
         android:allowBackup="true"
@@ -14,12 +14,12 @@
         android:theme="@style/Theme.Dish"
         tools:targetApi="31">
         <activity
-            android:name="com.example.com.example.dishee.VendorActivity"
+            android:name="ke.example.dishee.VendorActivity"
             android:exported="false"
             android:label="@string/title_activity_vendor"
             android:theme="@style/Theme.Dish" />
         <activity
-            android:name="com.example.com.example.dishee.MainActivity"
+            android:name="ke.example.dishee.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

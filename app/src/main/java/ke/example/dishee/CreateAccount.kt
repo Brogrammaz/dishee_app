@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.dishee.databinding.FragmentCreateAccountBinding
+import ke.example.dishee.databinding.FragmentCreateAccountBinding
 
 class CreateAccount : Fragment() {
 

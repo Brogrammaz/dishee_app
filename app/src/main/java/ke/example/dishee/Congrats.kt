@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 
-import com.example.dishee.databinding.FragmentCongratsBinding
+import ke.example.dishee.databinding.FragmentCongratsBinding
 
 
 class Congrats : Fragment() {
@@ -34,7 +34,7 @@ class Congrats : Fragment() {
         viewModel = ViewModelProvider(this).get(ke.example.dishee.CongratsViewModel::class.java)
         binding.startBtn.setOnClickListener {
             this.findNavController().navigate(
-                com.example.dishee.CongratsDirections.actionCongratsToLogin()
+                ke.example.dishee.CongratsDirections.actionCongratsToLogin()
             )
         }
     }

@@ -1,7 +1,7 @@
 package ke.example.dishee.network
 
-import com.example.dishee.models.Recipe
-import com.example.dishee.models.User
+import ke.example.dishee.models.Recipe
+import ke.example.dishee.models.User
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET

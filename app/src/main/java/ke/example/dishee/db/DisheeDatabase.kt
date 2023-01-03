@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.dishee.models.Recipe
-import com.example.dishee.models.User
+import ke.example.dishee.models.Recipe
+import ke.example.dishee.models.User
 
 @Database(entities = [Recipe::class, User::class], version = 1, exportSchema = false)
 abstract class DisheeDatabase : RoomDatabase() {
